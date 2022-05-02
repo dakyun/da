@@ -14,7 +14,7 @@
     color:#ffffff;
     font-size:2rem;
     line-height: 60px;
-    transform:translateX(60%);
+    transform:translateX(58%);
 }
 #back_to_top:hover{
     transform:translateY(-15%);

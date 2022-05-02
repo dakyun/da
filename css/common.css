@@ -138,9 +138,21 @@ a{color:var(--black-basic-color);text-decoration:none;}
 }
 .serif{font-family: 'Cormorant', serif;font-size:calc(.9em*1.7);font-style: italic;font-weight:700;}
 
+.show_up{
+    opacity:0;
+}
+.show_up.active{
+    animation:move_up .8s forwards;
+}
+.show_up.active.delay{
+    animation-delay:1s;
+}
+.show_up.active.delay_more{
+    animation-delay:1.8s;
+}
+
 @keyframes move_up {
-    0%{opacity:.1;transform:translateY(10rem);}
-    80%{transform:translateY(1rem);}
+    0%{opacity:.1;transform:translateY(15rem);}
     100%{opacity:1;transform:translateY(0);}
 }
 /* typo */
