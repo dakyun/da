@@ -843,7 +843,7 @@ section#project6 .gif_box img{
 }
 #portfolio ul.graphics_box .graphic_thumb img {
   height: 300px;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 #portfolio ul.graphics_box .graphic_thumb .hover_txt {
@@ -859,7 +859,7 @@ section#project6 .gif_box img{
   line-height: 3;
   display: block;
   opacity: 0;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 #portfolio ul.graphics_box .graphic_thumb .hover_txt .design_type {
   display: block;
@@ -892,12 +892,12 @@ section#project6 .gif_box img{
 }
 #portfolio ul.graphics_box .graphic_thumb:hover .hover_txt {
   opacity: 1;
-  transition: all 0.5s;
+  transition: all 0.3s;
   transition-delay: 0.3s;
 }
 #portfolio ul.graphics_box .graphic_thumb:hover img {
   transform: scale(1.2);
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 #portfolio #pf_modal {
   position: fixed;

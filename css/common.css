@@ -145,7 +145,7 @@ a{color:var(--black-basic-color);text-decoration:none;}
     animation:move_up .8s forwards;
 }
 .show_up.active.delay{
-    animation-delay:1s;
+    animation-delay:1.3s;
 }
 .show_up.active.delay_more{
     animation-delay:1.8s;
