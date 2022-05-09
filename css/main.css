@@ -41,11 +41,6 @@
 #main .main_visual .slogan_box .slogan_btns a:nth-child(1) {
   margin-right: 30px;
 }
-#main .main_visual .bg_box > div {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 #main .main_visual::before {
   content: "";
   width: 1800px;
