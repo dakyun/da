@@ -147,7 +147,7 @@ header.section{
     transition:all 0.5s;
 }
 #header .header_scroll.shrink h1{
-    opacity:.55;
+    opacity:.7;
     background:url(../svgs/main_logo.svg) no-repeat left center / contain;
 }
 #header .header_scroll.shrink .gnb a{
