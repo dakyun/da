@@ -281,7 +281,7 @@ $(function () {
 
 /* 그래픽 포트폴리오 모달창 */
 var modal = $("#pf_modal"),
-  modalThumb = $(".graphic_thumb a"),
+  modalThumb = $(".graphic_thumb .modal"),
   modalClose = modal.find(".close"),
   modalImg = modal.find("img");
 
